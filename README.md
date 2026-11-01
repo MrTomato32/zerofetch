@@ -9,11 +9,8 @@
 
 ![Code size](https://img.shields.io/github/languages/code-size/MrTomato32/zerofetch)
 
-![Issues](https://img.shields.io/github/issues/MrTomato32/zerofetch)
+![Issues](https://img.shields.io/github/issues/MrTomato32/zerofetch)![Platform](https://img.shields.io/badge/platform-linux-informational?logo=linux&logoColor=white)![Made with C](https://img.shields.io/badge/made%20with-C-blue?logo=c)
 
-![Platform](https://img.shields.io/badge/platform-linux-informational?logo=linux&logoColor=white)
-
-![Made with C](https://img.shields.io/badge/made%20with-C-blue?logo=c)
 A simple neofetch-like tool that prioritizes speed and efficiency over aestethics.
 
 zerofetch displays useful information about your system, including:
