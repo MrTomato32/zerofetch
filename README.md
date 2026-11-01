@@ -17,3 +17,7 @@ zerofetch displays useful information about your system, including:
 bash
 git clone https://github.com/<your-username>/zerofetch.git
 cd zerofetch
+
+## Preview
+<img width="940" height="487" alt="Schermata_20261101_162450" src="https://github.com/user-attachments/assets/a80e08ba-1593-440b-b7b9-2a3aa13634a1" />
+
