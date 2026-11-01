@@ -20,4 +20,6 @@ cd zerofetch
 
 ## Preview
 <img width="940" height="487" alt="Schermata_20261101_162450" src="https://github.com/user-attachments/assets/a80e08ba-1593-440b-b7b9-2a3aa13634a1" />
+<img width="927" height="520" alt="Schermata_20261101_183618" src="https://github.com/user-attachments/assets/10d5f8fe-f3f8-404f-9878-166c90be3843" />
+<img width="939" height="495" alt="Schermata_20261101_183552" src="https://github.com/user-attachments/assets/f820d101-6cbf-4e9b-a448-b1177cca90e2" />
 
