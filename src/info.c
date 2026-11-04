@@ -61,14 +61,20 @@ static void get_ram(double *used_gib, double *total_gib) {
 
     char line[128];
     while (fgets(line, sizeof line, f)) {
-        sscanf(line, "MemTotal: %ld kB", &total);
-        sscanf(line, "MemAvailable: %ld kB", &avail);
+        if (strncmp(line, "MemTotal:", 9) == 0) {
+            sscanf(line, "MemTotal: %ld kB", &total);
+        } else if (strncmp(line, "MemAvailable:", 13) == 0) {
+            sscanf(line, "MemAvailable: %ld kB", &avail);
+        }
     }
     fclose(f);
 
-    *total_gib = total / 1048576.0;
-    *used_gib  = (total - avail) / 1048576.0;
+    if (total > 0) {
+        *total_gib = total / 1048576.0;
+        *used_gib  = (total - avail) / 1048576.0;
+    }
 }
+
 
 /* Used and total size of the root filesystem, in GiB */
 static void get_disk(double *used_gib, double *total_gib) {
